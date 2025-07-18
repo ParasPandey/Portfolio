@@ -8,28 +8,28 @@ import project3 from '@/assets/project-3.jpg';
 const Projects = () => {
   const projects = [
     {
-      title: 'Analytics Dashboard',
-      description: 'A comprehensive analytics dashboard built with React and D3.js featuring real-time data visualization, interactive charts, and customizable reports.',
+      title: 'Company Dashboard (TechCorp)',
+      description: 'Led frontend development of the main analytics dashboard used by 500+ employees. Built with React, TypeScript, and our internal design system.',
       image: project1,
-      technologies: ['React', 'TypeScript', 'D3.js', 'Node.js', 'PostgreSQL'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      technologies: ['React', 'TypeScript', 'Chart.js', 'Material-UI', 'Jest'],
+      liveUrl: 'https://techcorp.com/dashboard',
+      githubUrl: '#' // Company projects are private
     },
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with payment integration, inventory management, and admin panel. Built for scalability and performance.',
+      title: 'Personal Finance Tracker',
+      description: 'Side project built to track personal expenses and budget management. Features data visualization and spending insights.',
       image: project2,
-      technologies: ['Next.js', 'Stripe', 'MongoDB', 'Tailwind CSS', 'Vercel'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      technologies: ['React', 'Firebase', 'Chart.js', 'Tailwind CSS', 'PWA'],
+      liveUrl: 'https://my-finance-app.com',
+      githubUrl: 'https://github.com/johndoe/finance-tracker'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates, team collaboration features, and mobile-responsive design.',
+      title: 'Weather App',
+      description: 'Clean, responsive weather application with location-based forecasts and beautiful weather animations. Built as a learning project.',
       image: project3,
-      technologies: ['React Native', 'Firebase', 'Redux', 'TypeScript', 'Expo'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      technologies: ['React', 'OpenWeather API', 'CSS Animations', 'Responsive Design'],
+      liveUrl: 'https://weather-app-demo.com',
+      githubUrl: 'https://github.com/johndoe/weather-app'
     }
   ];
 
@@ -41,7 +41,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Here are some of my recent projects that showcase my skills and passion for development
+            A mix of professional work at TechCorp and personal projects that showcase my frontend development skills
           </p>
         </div>
 

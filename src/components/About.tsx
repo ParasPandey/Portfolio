@@ -33,9 +33,9 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate full-stack developer with 5+ years of experience creating 
-            digital solutions that make a difference. I love turning complex problems 
-            into simple, beautiful designs.
+            I'm a passionate frontend developer with 3+ years of experience building 
+            enterprise web applications. Currently working at TechCorp, contributing to 
+            products that impact millions of users worldwide.
           </p>
         </div>
 
@@ -43,14 +43,14 @@ const About = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Started my career as a self-taught developer, driven by curiosity and passion 
-              for technology. Over the years, I've had the privilege to work with amazing 
-              teams and contribute to projects that impact thousands of users.
+              Currently working as a Frontend Developer at TechCorp, where I collaborate 
+              with cross-functional teams to build and maintain React-based applications. 
+              I focus on creating responsive, accessible user interfaces and optimizing performance.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing 
-              to open source projects, or sharing knowledge with the developer community 
-              through blog posts and mentoring.
+              My role involves working closely with designers, backend developers, and product 
+              managers to deliver features that enhance user experience. I also contribute to 
+              our design system and mentor junior developers on the team.
             </p>
             <div className="flex flex-wrap gap-3">
               <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
@@ -82,16 +82,16 @@ const About = () => {
           <h3 className="text-2xl font-semibold mb-8">Fun Facts</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <div className="text-3xl font-bold text-primary">5+</div>
+              <div className="text-3xl font-bold text-primary">3+</div>
               <div className="text-muted-foreground">Years Experience</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary">50+</div>
-              <div className="text-muted-foreground">Projects Completed</div>
+              <div className="text-3xl font-bold text-primary">25+</div>
+              <div className="text-muted-foreground">Features Delivered</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary">100+</div>
-              <div className="text-muted-foreground">Happy Clients</div>
+              <div className="text-3xl font-bold text-primary">2M+</div>
+              <div className="text-muted-foreground">Users Impacted</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary">∞</div>

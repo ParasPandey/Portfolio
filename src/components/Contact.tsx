@@ -63,7 +63,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you!
+            Interested in connecting or discussing frontend development? I'd love to hear from you!
           </p>
         </div>
 
@@ -73,8 +73,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                I'm always open to discussing new opportunities, interesting projects, 
-                or just having a chat about technology and development. Feel free to reach out!
+                I'm always open to networking with fellow developers, discussing frontend technologies, 
+                or exploring new career opportunities. Feel free to reach out!
               </p>
             </div>
 
@@ -149,7 +149,7 @@ const Contact = () => {
                     id="subject"
                     {...register('subject', { required: 'Subject is required' })}
                     className="mt-1"
-                    placeholder="Project discussion"
+                    placeholder="Networking opportunity"
                   />
                   {errors.subject && (
                     <p className="text-sm text-destructive mt-1">{errors.subject.message}</p>
@@ -162,7 +162,7 @@ const Contact = () => {
                     id="message"
                     {...register('message', { required: 'Message is required' })}
                     className="mt-1 min-h-[120px]"
-                    placeholder="Tell me about your project..."
+                    placeholder="Let's connect and discuss frontend development..."
                   />
                   {errors.message && (
                     <p className="text-sm text-destructive mt-1">{errors.message.message}</p>

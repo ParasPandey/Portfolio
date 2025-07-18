@@ -34,13 +34,13 @@ const Hero = () => {
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6">
-              Full Stack Developer & UI/UX Designer
+              Frontend Developer at TechCorp
             </h2>
           </div>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            I create beautiful, responsive web applications with modern technologies. 
-            Passionate about clean code, great user experiences, and continuous learning.
+            Frontend developer specializing in React and modern web technologies. 
+            Building scalable user interfaces and contributing to enterprise applications that serve thousands of users.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
