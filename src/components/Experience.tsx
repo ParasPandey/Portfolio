@@ -1,4 +1,5 @@
 import React from "react";
+import exp1 from '@/assets/experience-1.jpg'
 
 const experiences = [
   {
@@ -6,20 +7,7 @@ const experiences = [
     company: "Nagarro",
     location: "Remote / India",
     duration: "2022 – Present",
-    image: "/src/assets/experience-1.jpg",
-    // responsibilities: [
-    //   "Designed and developed a scalable product licensing portal from the ground up, enabling users and partners to efficiently purchase and manage licenses, streamlining procurement workflows and improving product usage tracking.",
-    //   "Optimized state management using Redux Toolkit, reducing application complexity and improving maintainability, resulting in a 30% reduction in debugging time and faster feature iteration.",
-    //   "Designed and implemented AG Grid for handling large datasets, providing advanced table functionality (sorting, filtering, pagination) and improving data processing efficiency by 40%.",
-    //   "Integrated React Query for efficient asynchronous data fetching and caching, reducing API request redundancy by 25% and improving frontend performance.",
-    //   "Enhanced form management with React Hook Form, boosting form submission efficiency and reducing re-renders, leading to a 20% increase in user interaction responsiveness.",
-    //   "Optimized application performance by profiling React components, implementing memoization (using React.memo, useMemo, and useCallback), code-splitting critical routes, lazy-loading assets, and reducing unnecessary renders. Improved load times through efficient data fetching strategies, ultimately enhancing user interactions for a more responsive and efficient user experience.",
-    //   "Maintained code quality through comprehensive unit testing, achieving over 90% test coverage and contributing to a stable and reliable codebase.",
-    //   "Ensured website accessibility, making the application usable by everyone, including people with disabilities.",
-    //   "Collaborated with UI/UX teams to deliver accessible, pixel-perfect interfaces.",
-    //   "Mentored junior developers and contributed to code reviews, design systems, and technical documentation.",
-    //   "Followed Agile methodologies to deliver iterative improvements, ensure team alignment, and respond rapidly to changing requirements.",
-    // ],
+    image: exp1,
     responsibilities: [
       "Led the end-to-end development of a scalable product licensing portal, allowing users and partners to seamlessly manage purchases, streamlining procurement, and improving product usage tracking.",
       "Implemented Redux Toolkit and React Query to simplify state management and async data handling, reducing debugging time by 30% and API redundancy by 25%.",
@@ -59,7 +47,7 @@ const Experience = () => {
               key={idx}
               className="bg-muted rounded-xl shadow-sm p-8 md:p-10 flex flex-col md:flex-row"
             >
-              <div className="md:w-1/4 mb-4 md:mb-0 flex flex-col md:items-center">
+              <div className="md:w-1/4 mb-4 md:mb-0 flex flex-col items-center">
                 <img
                   src={exp.image}
                   alt={exp.role}

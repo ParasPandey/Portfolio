@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Palette, Zap, Users } from "lucide-react";
+import myPic from '@/assets/my-pic.jpg'
 
 const About = () => {
   const highlights = [
@@ -39,7 +40,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row items-center justify-center md:justify-center">
             {/* Profile Photo */}
             <img
-              src="/src/assets/my-pic.JPEG" // Replace with your actual photo path
+              src={myPic} // Replace with your actual photo path
               alt="Paras Pandey"
               className="w-52 h-52 md:w-60 md:h-60 aspect-square rounded-full object-cover shadow-lg mb-6 md:mb-0 md:mr-10"
               style={{ display: "block" }}
