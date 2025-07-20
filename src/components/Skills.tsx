@@ -1,37 +1,33 @@
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from "@/components/ui/card";
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: "Frontend",
       skills: [
-        { name: 'React', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Next.js', level: 85 },
-        { name: 'Tailwind CSS', level: 92 },
-        { name: 'Vue.js', level: 80 },
-      ]
+        { name: "Javascript", level: 90 },
+        { name: "React", level: 95 },
+        { name: "Redux", level: 80 },
+        { name: "TypeScript", level: 80 },
+        { name: "Tailwind CSS", level: 60 },
+        { name: "Next.js", level: 50 },
+      ],
     },
     {
-      title: 'Backend',
+      title: "Backend",
       skills: [
-        { name: 'Node.js', level: 88 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 82 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'GraphQL', level: 75 },
-      ]
+        { name: "Node.js", level: 40 },
+        { name: "MongoDB", level: 40 },
+      ],
     },
     {
-      title: 'Tools & Others',
+      title: "Tools & Others",
       skills: [
-        { name: 'Git', level: 95 },
-        { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
-        { name: 'Figma', level: 85 },
-        { name: 'Jest', level: 78 },
-      ]
-    }
+        { name: "Git", level: 90 },
+        { name: "Figma", level: 80 },
+        { name: "Jest", level: 80 },
+      ],
+    },
   ];
 
   const SkillBar = ({ name, level }: { name: string; level: number }) => (
@@ -41,7 +37,7 @@ const Skills = () => {
         <span className="text-sm text-muted-foreground">{level}%</span>
       </div>
       <div className="w-full bg-muted rounded-full h-2">
-        <div 
+        <div
           className="hero-gradient h-2 rounded-full transition-all duration-1000 ease-out"
           style={{ width: `${level}%` }}
         />
@@ -63,11 +59,20 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="hover-lift transition-smooth card-gradient border-0 shadow-card">
+            <Card
+              key={index}
+              className="hover-lift transition-smooth card-gradient border-0 shadow-card"
+            >
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-6 text-center">{category.title}</h3>
+                <h3 className="text-xl font-semibold mb-6 text-center">
+                  {category.title}
+                </h3>
                 {category.skills.map((skill, skillIndex) => (
-                  <SkillBar key={skillIndex} name={skill.name} level={skill.level} />
+                  <SkillBar
+                    key={skillIndex}
+                    name={skill.name}
+                    level={skill.level}
+                  />
                 ))}
               </CardContent>
             </Card>
@@ -76,13 +81,23 @@ const Skills = () => {
 
         {/* Tech Stack Icons */}
         <div className="text-center">
-          <h3 className="text-2xl font-semibold mb-8">Technologies I Work With</h3>
+          <h3 className="text-2xl font-semibold mb-8">
+            Technologies I Work With
+          </h3>
           <div className="flex flex-wrap justify-center gap-6">
             {[
-              'React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL', 
-              'MongoDB', 'Docker', 'AWS', 'Git', 'Figma'
+              "Javascript",
+              "Material UI",
+              "React",
+              "React Query",
+              "Redux",
+              "Next.js",
+              "TypeScript",
+              'Tailwind CSS',
+              "Jest",
+              "Git",
             ].map((tech, index) => (
-              <div 
+              <div
                 key={index}
                 className="px-4 py-2 bg-muted/50 rounded-full text-sm font-medium hover-lift transition-smooth"
               >

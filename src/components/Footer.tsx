@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold text-gradient mb-4">Portfolio</h3>
+            <h3 className="text-2xl font-bold text-gradient mb-4">Paras Pandey</h3>
             <p className="text-muted-foreground leading-relaxed">
               Building digital experiences that make a difference. Let's create something amazing together.
             </p>
@@ -37,7 +37,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com" 
+               href="https://github.com/ParasPandey" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-white hover:bg-primary transition-smooth"
@@ -45,7 +45,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/paras-pandey-b938b3183/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-white hover:bg-primary transition-smooth"
@@ -53,7 +53,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="mailto:john@example.com"
+                 href="mailto:pparas923@gmail.com"
                 className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-white hover:bg-primary transition-smooth"
               >
                 <Mail size={20} />
@@ -64,7 +64,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} John Doe. Made with <Heart size={16} className="text-red-500" /> using React & Tailwind CSS
+            © {currentYear} Paras Pandey. Made with <Heart size={16} className="text-red-500" /> using React & Tailwind CSS
           </p>
         </div>
       </div>

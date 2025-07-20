@@ -38,20 +38,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'john@example.com',
-      link: 'mailto:john@example.com'
+      value: 'pparas923@gmail.com',
+      link: 'mailto:pparas923@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91 9997876803',
+      link: null
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
-      link: 'https://maps.google.com'
+      value: 'Moradabad, UP, India',
+      link: 'https://www.google.com/maps/@28.8417833,78.7394472,1398m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D'
     }
   ];
 
