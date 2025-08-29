@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built with Vite, TypeScript, React, sha
 
 ## Project Info
 
-**Live Demo:** [Add your deployed URL here]
+**Live Demo:**  https://portfolio-nine-smoky-94.vercel.app/
 
 ## Features
 
