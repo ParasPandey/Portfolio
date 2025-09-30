@@ -3,10 +3,28 @@ import { Button } from "@/components/ui/button";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.png";
 import project3 from "@/assets/project-3.png";
+import project4 from "@/assets/project-4.png";
 import ProjectContext from "./ProjectContext";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Scribbly.io – Real-Time Multiplayer Drawing Game",
+      description:
+        "Built a real-time, turn-based multiplayer drawing and guessing game where one player draws a secret word while others guess. Implemented dynamic turn rotation, scoring, and player join/leave handling with real-time synchronization. Developed a responsive and interactive UI using Next.js and Tailwind CSS, optimized performance for large rooms, and added hints, custom words, and in-game sounds for enhanced gameplay.",
+      image: project4, // replace with your project image variable
+      technologies: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "WebSockets",
+        "TypeScript",
+        "Responsive Design",
+      ],
+      liveUrl: "https://scribbly-seven.vercel.app/",
+      githubUrl: "https://github.com/ParasPandey/Scribbly",
+    },
     {
       title: "Scalable Product Licensing Portal",
       description:
@@ -91,7 +109,7 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-smooth" />
               </div>
 
-            <ProjectContext project={project}/>
+              <ProjectContext project={project} />
             </Card>
           ))}
         </div>
